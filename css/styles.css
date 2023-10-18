@@ -1,0 +1,72 @@
+   /* HEADER */
+header{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/awning.png);
+    height: 150px;
+    display: grid;
+    grid-template-columns: 7% 31% 51% 4% 7%;
+
+}
+
+#homeimg{
+    height: 45px;
+    margin-left: 46px;
+    margin-top: 18px;
+}
+
+#headLogo{
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;
+    font-size: 42pt;
+    color: #660018;
+    margin-left: 23px;
+}
+
+.navBar{
+    justify-self: end;
+    margin-top: 35px;
+}
+
+.navMenu{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16pt;
+    list-style-type: none;
+    color: #660018;
+    margin: 21px;
+    display: inline;
+}
+
+.socialimg{
+    height: 40px;
+    margin-top: 20px;
+}
+
+   /* BODY */
+#heroImage{
+    background-image: url(../images/hero.png);
+}
+
+
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #660018;
+  color: white;
+  padding: 16px 48px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  display: block;
+  margin-left: 110px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #fbdae0;
+  color: #6c7175;
+}
+
