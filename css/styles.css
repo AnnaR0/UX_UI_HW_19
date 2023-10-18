@@ -44,7 +44,9 @@ header{
 
    /* BODY */
 #heroImage{
-    background-image: url(../images/hero.png);
+    position: relative;
+    z-index: -1;
+    top: -100px;
 }
 
 
