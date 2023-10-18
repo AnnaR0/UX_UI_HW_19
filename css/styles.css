@@ -65,6 +65,8 @@ header{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    animation: spin 8s linear;
+    animation-iteration-count: infinite;
 }
 
 #displayCase{
@@ -99,4 +101,33 @@ input[type=submit]:hover {
   background-color: #fbdae0;
   color: #6c7175;
 }
+
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    15% {
+        transform: rotate(180deg);
+    }
+    30% {
+        transform: rotate(360deg);
+    }
+    40% {
+        transform: scale(125%);
+    }
+    50% {
+        transform: scale(100%);
+    }
+    60% {
+        transform: scale(125%);
+    }
+    70% {
+        transform: scale(100%);
+    }
+    100% {
+        transform: scale(100%);
+    }   
+  }
 
