@@ -43,10 +43,28 @@ header{
 }
 
    /* BODY */
-#heroImage{
+#welcome{
     position: relative;
     z-index: -1;
+    top: -575px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#heroImage{
+    position: relative;
+    z-index: -2;
     top: -100px;
+}
+
+#palmier{
+    position: relative;
+    z-index: 1;
+    top: -950px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
