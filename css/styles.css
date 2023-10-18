@@ -131,3 +131,28 @@ input[type=submit]:hover {
     }   
   }
 
+
+
+
+  #btn {
+    background-color: #660018;
+    color: white;
+    padding: 16px 48px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -500px;
+
+    transition: transform .2s ease;
+  }
+
+  #btn:active{
+    transform: scale(.9);
+  }
